@@ -1,3 +1,3 @@
 # Revbus
 
-Revbus is a fast, embeddable, and extensible event bus designed for real-time systems, microservices, and serverless applications, built in **Rust**.
+Revbus is a low-dependency, lightweight and performant event bus with replay and fan-out, built in **Rust**.
