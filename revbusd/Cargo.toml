@@ -1,0 +1,11 @@
+[package]
+name = "revbusd"
+version = "0.1.0"
+edition = "2021"
+description = "Standalone CLI/server for Revbus, the lightweight and performant event bus."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/memel06/revbus"
+
+[dependencies]
+librevbus = { path = "../librevbus" }
+tokio = { version = "1.38", features = ["full"] }
