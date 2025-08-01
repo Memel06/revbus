@@ -2,6 +2,9 @@
 name = "librevbus"
 version = "0.1.0"
 edition = "2021"
+description = "A low-dependency, lightweight and performant event bus with replay and fan-out."
+license = "GPL-3.0"
+repository = "https://github.com/Memel06/revbus"
 
 [dependencies]
 tokio = { version = "1.38", features = ["full"] }
